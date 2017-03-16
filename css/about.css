@@ -1,0 +1,1174 @@
+
+/*
+Developer: Milind Parkara (m_parkara@fanshaweonline.ca)
+Graphic Designer : Sheetal Papreja (s_papreja@fanshaweonline.ca)
+Project Website Name: Chantry Island
+Website URL : http://chantryisland.com/
+Supported By : Fanshawe college London Ontario
+*/
+
+/*==========================================
+ 01.  MMAIN BANNER IMAGE - LINE NO 29
+ 02.  STUDY SECTION - LINE NO 110
+ 03.  BOOK NOW - LINE NO 284
+ 04.  HEADER BANNER - LINE NO 344
+ 05.  BOOKING PAGE - LINE NO 424
+ 06.  PORTFOLIO SECTION - LINE NO 436
+ 07.  FOOTER - LINE NO 492
+ 08.  PRE FOOTER - LINE NO 512
+ 09.  MAIN BANNER IMAGE - LINE NO 636
+ 10.  STYDY SECTION - LINE NO 717
+ 11.  BOOK NOW- LINE NO 891
+ 12.  BOOK NOW - LINE NO 911
+ 13.  BOOK NOW - LINE NO 931
+
+==========================================*/
+
+
+
+
+/* ==========================================================================
+                     Main Banner Image  Starts
+   ========================================================================== */
+
+.bannerheight{
+    height: :70rem;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  .bannerheight{
+    height: :12rem;
+}
+}
+
+
+#sequence {
+    position: relative;
+    min-height: 965px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+  
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0rem;
+    top:-248px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   #sequence {
+    position: relative;
+    min-height: 272px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0;
+       top:-155px;
+}
+}
+
+
+
+#sequence > .sequence-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#sequence > .sequence-canvas > li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#sequence > .sequence-canvas li > * {
+    position: absolute;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.sky2 {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+/* ==========================================================================
+                     Main Banner Image  Ends
+   ========================================================================== */
+
+
+
+/*========================================================================
+                    Study Section Css Starts
+==========================================================================*/
+
+.study{
+    background: #fff;
+}
+.main_study_area{
+    overflow: hidden;
+}
+.slick-active{
+    outline: none;
+}
+.single_study_text{
+   background: rgba(255,255,255,0.8);
+    position: absolute;
+    right: -15%;
+    top: 85px;
+    width: 100%;
+    z-index: 9;
+    padding: 10% 20%;
+    border: 2px solid #1c6fb5;
+    border-radius: 25px;
+    color: #2b2b2b;
+}
+.single_study_text .s_study_icon{
+    background: #e74c3c;
+    width:60px;
+    height: 60px;
+    line-height: 60px;
+    color:#fff;
+    transform: rotate(45deg);
+    margin: 30px auto;
+}
+.single_study_text .s_study_icon i{
+    transform: rotate(-45deg);
+}
+.single_study_right_img{
+    position: relative;
+}
+
+.bannerheight{
+    height: :70rem;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  .bannerheight{
+    height: :12rem;
+}
+}
+
+
+#sequence1 {
+    position: relative;
+    min-height: 965px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+  
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0rem;
+    top:0px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   #sequence1 {
+    position: relative;
+    min-height: 272px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0;
+       top:-155px;
+}
+}
+
+
+
+#sequence1 > .sequence-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#sequence1 > .sequence-canvas > li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#sequence1 > .sequence-canvas li > * {
+    position: absolute;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.sky2 {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+#sequence2 {
+    position: relative;
+    min-height: 965px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+  
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0rem;
+    top:-230px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   #sequence2 {
+    position: relative;
+    min-height: 272px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0;
+       top:-155px;
+}
+}
+
+
+
+#sequence2 > .sequence-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#sequence2 > .sequence-canvas > li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#sequence2 > .sequence-canvas li > * {
+    position: absolute;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.sky2 {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+/*========================================================================
+                    Study Section Css ends
+==========================================================================*/
+
+
+/*========================================================================
+                   Book Now
+==========================================================================*/
+
+.impressA{
+    background:url(../images/work-together2.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.main_impressA h2{
+    font-size:2.286rem;
+      color: #fff;
+}
+.impressA_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+
+
+/*========================================================================
+                   Book Now
+==========================================================================*/
+
+.impress1{
+    background:url(../images/footerDiveder-1.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.main_impress1 h2{
+    font-size:2.286rem;
+      color: #fff;
+}
+.impress1_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+
+
+/*========================================================================
+                   Book Now
+==========================================================================*/
+
+.impress2{
+    background:url(../images/divider-2.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.main_impress2 h2{
+    font-size:2.286rem;
+      color: #fff;
+}
+.impress2_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+
+
+/*========================================================================
+                   header banner
+==========================================================================*/
+
+.impressAboutBanner{
+    background:url(../images/aboutBanner.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    top: -25rem;
+}
+.main_impressAboutBanner h2{
+    font-size:6rem;
+      color: #fff;
+}
+.impressAboutBanner_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+.overlayBanner{
+    position: relative;
+    z-index: 1212;
+    top: 1rem;
+    
+}
+.nameStyle{
+    text-shadow: 1px 2px 0px #000000;
+    font-size: 6rem;
+    font-family: cursive;
+}
+
+.nameStyle2{
+    text-shadow: 1px 1px 0px #000000;
+    
+}
+
+.btn.btn-primary1:hover,
+.btn.btn-primary1:active,
+.btn.btn-primary1.hover {
+    background-color: #9f1b22;
+    border: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.btn.btn-primary1 {
+    background-color: red;
+    border: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.btn.btn-primary {
+    background-color: #3bafda;
+    border: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary.hover {
+    background-color: #4fc1e9;
+    border: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+/*========================================================================
+                   booking page
+==========================================================================*/
+
+.tableheading{
+  text-align: center;
+    font-size: 2rem;
+    color: #155892;
+    border-bottom: 2px solid #155892;
+}
+
+
+/*=====================================================================
+                    portfolio section 
+====================================================================*/
+
+.main_portfolio_content{
+    
+}
+.main_portfolio_content .single_portfolio{
+    position: relative;
+    margin-bottom: 18px;
+}
+.main_portfolio_content .single_portfolio img{
+    width:100%;
+}
+.main_portfolio_content .single_portfolio:hover .single_portfolio_overlay{
+    opacity: 1;
+}
+.single_portfolio_overlay{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background: rgba(221, 221, 221, 0.60);
+    opacity: 0;
+    transition: all 0.3s;
+
+}
+.single_portfolio_overlay .icon_area{
+    position: absolute;
+    top:45%;
+    width:100%;
+    height: 100%;
+}
+.single_portfolio_overlay .icon_area img{
+    width:27px;
+    height:25px;
+}
+.single_portfolio_overlay .icon_area img{
+    width:27px;
+    height:25px;
+}
+.single_portfolio.height_1 .icon_area img{
+    width:27px;
+    height:25px;
+}
+.single_portfolio img{
+    width:100%;
+    height: 280px; 
+
+}
+.single_portfolio.height_1 img{
+    width:100%;
+    height: 575px;
+}
+      
+ /*========================================================================
+                   footer
+==========================================================================*/
+
+.impressF{
+    background-color: #234875;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.main_impressF h2{
+    font-size:2.286rem;
+      color: #fff;
+}
+.impressF_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+
+
+/*========================================================================
+                  Pre Footer
+==========================================================================*/
+     
+      
+/*footer*/
+.footer {
+    background: #1c6fb6;
+    color: #fff;
+    padding: 50px 0;
+    display: inline-block;
+    width: 100%;
+    font-weight: 300;
+}
+.footer h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.footer address a { color: #48cfad }
+.tweet-box {
+    background: #505b71;
+    padding: 8px 15px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-bottom: 1px solid #636F79;
+    font-size: 14px;
+}
+.tweet-box:before {
+    background-color: #505b71;
+    border-color: #505b71;
+    border-image: none;
+    border-right: 1px none #505b71;
+    border-style: none;
+    content: "";
+    display: block;
+    height: 22px;
+    left: 60px;
+    position: absolute;
+    top: 32px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 22px;
+}
+.tweet-box  a,
+.tweet-box i { color: #00adef }
+.tweet-box  a:hover { color: #48cfad }
+.tweet-box i {
+    font-size: 40px;
+    float: left;
+    margin-right: 15px;
+}
+.social-link-footer li {
+    float: right;
+    margin: 5px 10px 5px 0px;
+    padding-bottom: 5px;
+}
+.social-link-footer li a {
+    color: #fff;
+    background: #505b71;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.social-link-footer li a:hover {
+    background: #48cfad;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.copyright {
+    color: #fff;
+    padding-top: 15px;
+}
+.page-footer { padding: 0% 13% }
+.page-footer h1 { padding-left: 4% }
+ul.page-footer-list {
+    list-style: none;
+    padding: 0px 10px;
+}
+ul.page-footer-list li {
+    line-height: 35px;
+    border-bottom: 1px dashed #edf7ff;
+}
+ul.page-footer-list a { color: #fff }
+ul.page-footer-list li i { padding-right: 10px }
+.footer-small {
+    background-color: #2C3E50;
+    margin-top: -6px;
+    padding-top: 5px;
+}
+.text-footer {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.text-footer p { text-align: left }
+.address p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+                     Main Banner Image  Starts
+   ========================================================================== */
+
+.bannerheight{
+    height: :70rem;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  .bannerheight{
+    height: :12rem;
+}
+}
+
+
+#sequence {
+    position: relative;
+    min-height: 965px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+  
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0rem;
+    top:-248px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   #sequence {
+    position: relative;
+    min-height: 272px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0;
+       top:-155px;
+}
+}
+
+
+
+#sequence > .sequence-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#sequence > .sequence-canvas > li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#sequence > .sequence-canvas li > * {
+    position: absolute;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.sky2 {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+/* ==========================================================================
+                     Main Banner Image  Ends
+   ========================================================================== */
+
+
+
+/*========================================================================
+                    Study Section Css Starts
+==========================================================================*/
+
+.study{
+    background: #fff;
+}
+.main_study_area{
+    overflow: hidden;
+}
+.slick-active{
+    outline: none;
+}
+.single_study_text{
+   background: rgba(255,255,255,0.8);
+    position: absolute;
+    right: -15%;
+    top: 85px;
+    width: 100%;
+    z-index: 9;
+    padding: 10% 20%;
+    border: 2px solid #1c6fb5;
+    border-radius: 25px;
+    color: #2b2b2b;
+}
+.single_study_text .s_study_icon{
+    background: #e74c3c;
+    width:60px;
+    height: 60px;
+    line-height: 60px;
+    color:#fff;
+    transform: rotate(45deg);
+    margin: 30px auto;
+}
+.single_study_text .s_study_icon i{
+    transform: rotate(-45deg);
+}
+.single_study_right_img{
+    position: relative;
+}
+
+.bannerheight{
+    height: :70rem;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  .bannerheight{
+    height: :12rem;
+}
+}
+
+
+#sequence1 {
+    position: relative;
+    min-height: 965px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+  
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0rem;
+    top:0px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   #sequence1 {
+    position: relative;
+    min-height: 272px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0;
+       top:-155px;
+}
+}
+
+
+
+#sequence1 > .sequence-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#sequence1 > .sequence-canvas > li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#sequence1 > .sequence-canvas li > * {
+    position: absolute;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.sky2 {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+#sequence2 {
+    position: relative;
+    min-height: 965px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+  
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0rem;
+    top:-230px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   #sequence2 {
+    position: relative;
+    min-height: 272px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    /* font-family: 'Play', sans-serif; */
+        margin-top: 0;
+       top:-155px;
+}
+}
+
+
+
+#sequence2 > .sequence-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#sequence2 > .sequence-canvas > li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#sequence2 > .sequence-canvas li > * {
+    position: absolute;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.sky2 {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+/*========================================================================
+                    Study Section Css ends
+==========================================================================*/
+
+
+/*========================================================================
+                   Book Now
+==========================================================================*/
+
+.impress{
+    background:url(../images/work-together.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.main_impress h2{
+    font-size:2.286rem;
+      color: #fff;
+}
+.impress_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+
+
+/*========================================================================
+                   Book Now
+==========================================================================*/
+
+.impress1{
+    background:url(../images/footerDiveder-1.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.main_impress1 h2{
+    font-size:2.286rem;
+      color: #fff;
+}
+.impress1_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+
+
+/*========================================================================
+                   Book Now
+==========================================================================*/
+
+.impress2{
+    background:url(../images/divider-2.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.main_impress2 h2{
+    font-size:2.286rem;
+      color: #fff;
+}
+.impress2_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+
+
+/*========================================================================
+                   header banner
+==========================================================================*/
+
+.impress3{
+    background:url(../images/bgImage.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    top: -25rem;
+}
+.main_impress3 h2{
+    font-size:2.286rem;
+      color: #fff;
+}
+.impress3_btns .btn{
+    padding: 1rem 4rem;
+      color: #fff;
+}
+.overlayBanner{
+    position: relative;
+    z-index: 1212;
+    top: 1rem;
+    
+}
+.nameStyle{
+    text-shadow: 1px 2px 0px #000000;
+    font-size: 6rem;
+    font-family: cursive;
+}
+
+.nameStyle2{
+    text-shadow: 1px 1px 0px #000000;
+    
+}
+
+.btn.btn-primary1:hover,
+.btn.btn-primary1:active,
+.btn.btn-primary1.hover {
+    background-color: #9f1b22;
+    border: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.btn.btn-primary1 {
+    background-color: red;
+    border: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+
+
+
+
+/*========================================================================
+                  Gallery Image Popup window 
+==========================================================================*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 65%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+/*Map*/
+.map-wrapper
+{
+    width: 45%;
+    height: 450px;
+}
+
+.geocode-header
+{
+    font-size: 20px;
+}
+
+
+
+.address
+{
+    width: 350px;
+}
